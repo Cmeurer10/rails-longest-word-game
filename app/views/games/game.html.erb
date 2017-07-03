@@ -1,0 +1,9 @@
+<h1>Word Finder</h1>
+
+<%= $grid.join(" ") %>
+
+<p>What word can you see?</p>
+<form action="/score" method="get">
+  <input type="text" name="word" placeholder="">
+  <input type="submit">
+</form>
